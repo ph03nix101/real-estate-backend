@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import { z } from 'zod';
-import { query } from '../config/database';
+import { query } from '../config/database.js';
 
 // Validation schemas
 const createAppointmentSchema = z.object({

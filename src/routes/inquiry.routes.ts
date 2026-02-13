@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { authenticateToken } from '../middleware/auth.middleware';
+import { authenticateToken } from '../middleware/auth.middleware.js';
 import {
     createInquiry,
     getAgentInquiries,
@@ -7,7 +7,7 @@ import {
     updateInquiryStatus,
     deleteInquiry,
     getInquiryStats,
-} from '../controllers/inquiry.controller';
+} from '../controllers/inquiry.controller.js';
 
 const router = Router();
 

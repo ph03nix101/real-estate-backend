@@ -6,8 +6,8 @@ import {
     updateAppointmentStatus,
     deleteAppointment,
     getAppointmentStats
-} from '../controllers/appointment.controller';
-import { authenticateToken, requireAgent } from '../middleware/auth.middleware';
+} from '../controllers/appointment.controller.js';
+import { authenticateToken, requireAgent } from '../middleware/auth.middleware.js';
 
 const router = Router();
 
